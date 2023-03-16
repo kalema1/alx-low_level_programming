@@ -1,12 +1,9 @@
-/**
- * this is a display function
- */
 #include <stdio.h>
 
 /**
  * display program
  *
- * using puts function
+ * returns value 0
  */
 int main(void)
 {
