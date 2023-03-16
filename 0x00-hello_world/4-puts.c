@@ -3,7 +3,7 @@
 /**
  * main - display program using puts function
  *
- * returns: value 0
+ * Return: value 0
  */
 int main(void)
 {
