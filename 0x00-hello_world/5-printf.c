@@ -3,7 +3,7 @@
 /**
  * main - display function using printf
  *
- * Return: value 0 
+ * Return: value 0
  */
 int main(void)
 {
