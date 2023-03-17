@@ -3,7 +3,7 @@
 /**
  * main - display variable type value
  *
- * Retrun: vlaue 0
+ * Return: value 0
  */
 int main(void)
 {
