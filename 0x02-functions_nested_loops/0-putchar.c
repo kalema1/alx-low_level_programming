@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
-* main - printing _putchar
+* main - display puchar
 *
-* Return: value 0
+* Return; value 0
 */
-int _putchar(char c);
-
 int main(void)
 {
-	_purchar('_');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
