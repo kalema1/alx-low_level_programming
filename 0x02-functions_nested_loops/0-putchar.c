@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* main - display puchar
+* main - display message "puchar"
 *
-* Return; value 0
+* Return: value 0
 */
 int main(void)
 {
