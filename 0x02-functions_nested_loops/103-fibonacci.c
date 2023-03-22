@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - prints sum of even fibonacci number
+* main - sum of even fibonacci numbers
 *
 * Return: value 0
 */
@@ -16,9 +16,9 @@ int main(void)
 		if ((k % 2) == 0)
 		{
 			sum += k;
-			j = k - j;
-			++i;
 		}
+		j = k - j;
+		++i;
 	}
 	printf("%ld\n", sum);
 	return (0);
