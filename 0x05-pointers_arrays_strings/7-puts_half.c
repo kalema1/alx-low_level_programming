@@ -2,9 +2,9 @@
 
 /**
 * puts_half - prints second half
-* @str: string
+* @str: string to be used
 *
-* Return: no value
+* Return: nothing
 */
 void puts_half(char *str)
 {
