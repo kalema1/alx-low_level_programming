@@ -16,7 +16,6 @@ int _atoi_digit(char x)
 		res = x - '0';
 	return (res);
 }
-
 /**
 * _isNumber - check if a string is a number
 * @argv: pointer to string
@@ -34,7 +33,6 @@ int _isNumber(char *argv)
 	}
 	return (0);
 }
-
 /**
 * _calloc - allocate array
 * @nmemb: number of elements
@@ -54,7 +52,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		tab[i] = '0';
 	return (tab);
 }
-
 /**
 * mul_array - multiply 2 arrays
 * @a1: array 1
@@ -86,7 +83,6 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 	}
 	return (a3);
 }
-
 /**
 * print_array - print all digits of array
 * @nb: number of elements
@@ -120,12 +116,12 @@ int main(int argc, char *argv[])
 	char E[6] = {'E', 'r', 'r', 'o', 'r', '\n'};
 	char *tabres;
 
-	if(argc != 3 || _isNumber(argv[1]) == 1 || _isNumber(argv[2]) == 1)
+	if (argc != 3 || _isNumber(argv[1]) == 1 || _isNumber(argv[2]) == 1)
 	{
 		for (i = 0; i < 6; i++)
 			_putchar(E[i]);
 		exit(98);
-	} 
+	}
 	for (len1 = 0; argv[1][len1]; len1++)
 	;
 	for (len2 = 0; argv[2][len2]; len2++)
