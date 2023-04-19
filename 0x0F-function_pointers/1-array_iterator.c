@@ -1,5 +1,5 @@
 /**
-* array_iterator - executes a function
+* array_iterator - executes a function as parameter
 * @array: integer array
 * @size: size of array
 * @action: pointer to function
