@@ -76,11 +76,11 @@ void print_all(const char * const format, ...)
 			{
 				printf("%s", sep);
 				printType[j].printer(l);
+				sep = ", ";
 				break;
 			}
 			j++;
 		}
-		sep = ", ";
 		i++;
 	}
 	printf("\n");
