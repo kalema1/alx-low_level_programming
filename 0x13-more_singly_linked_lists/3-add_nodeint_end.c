@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* add_nodeint - add new node at the end
+* add_nodeint_end - add new node at the end
 * @head: double pointer to list
 * @n: element to be added
 *
