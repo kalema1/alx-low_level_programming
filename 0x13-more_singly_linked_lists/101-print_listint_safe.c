@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * loop_of_listint - find number of nodes
